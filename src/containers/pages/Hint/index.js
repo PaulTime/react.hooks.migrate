@@ -14,11 +14,12 @@ const HintPage = React.memo(({ location }) => {
 
   React.useEffect(
     () => {
+      setLoading(true);
       window
         .fetch(`${HOST}/api/v1/car-info/${location.query.search}`)
         .then(response => response.json())
         .then(data => {
-          setLoading(!loading);
+          setLoading(false);
           setResult(data.result);
         })
     },
