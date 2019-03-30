@@ -102,8 +102,3 @@ export default (action = actionDefault, config = {}) => Component =>
       );
     }
   };
-
-const Fetch = ({ action, config = {}, children }) => {
-  const params = { ...configDefault, ...config };
-  const [loading, setLoading] = React.useState(config.filter())
-};

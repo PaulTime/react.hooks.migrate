@@ -4,6 +4,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const dotenv = require('dotenv').config({ path: `${__dirname}/.env` }).parsed;
 
@@ -87,5 +88,6 @@ module.exports = {
       filename: 'static/css/[name].[hash:8].css',
       chunkFilename: 'static/css/[id].[hash:8].css',
     }),
+    // new BundleAnalyzerPlugin(),
   ],
 };

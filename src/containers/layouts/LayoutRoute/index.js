@@ -32,8 +32,7 @@ const LayoutRoute = ({ children, component: Component, path, location, ...rest }
           {React.Children.map(children, child =>
             React.cloneElement(child, {
               path: `${path || ''}${child.props.path || ''}`,
-            })
-          )}
+            }))}
         </Switch>
       </Component>
     )}
@@ -49,7 +48,6 @@ LayoutRoute.propTypes = {
 };
 
 LayoutRoute.defaultProps = {
-  component: React.Fragment,
   path: undefined,
   location: undefined,
 };
