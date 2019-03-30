@@ -38,7 +38,7 @@ const Query = (props) => {
       });
   };
 
-  const startFetch = () => {
+  React.useEffect(() => {
     const loading = filter();
 
     setState({ ...state, loading });
@@ -47,9 +47,7 @@ const Query = (props) => {
       currentFetch.current = Math.random();
       fetch(currentFetch.current);
     }
-  };
-
-  React.useEffect(startFetch, watch);
+  }, watch);
 
   if (loader && state.loading) {
     return '...loading';
