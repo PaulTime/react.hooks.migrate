@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9fe6d0c-3818-4263-8a39-c027c7ce5809" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.93e33c73.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.7a51852f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/layouts/LayoutRoute/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/layouts/LayoutRoute/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/pages/Hint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/pages/Hint/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
-    </list>
+    <list default="true" id="c9fe6d0c-3818-4263-8a39-c027c7ce5809" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,7 +23,7 @@
         <counts>
           <entry key="babelrc" value="2" />
           <entry key="eslintrc" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="js" value="28" />
           <entry key="json" value="3" />
           <entry key="ts" value="2" />
@@ -47,7 +33,7 @@
         <counts>
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="28" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
@@ -56,14 +42,14 @@
           <entry key="eslintrc" value="1" />
           <entry key="js" value="3008" />
           <entry key="json" value="6" />
-          <entry key="txt" value="36" />
+          <entry key="txt" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="3008" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="PLAIN_TEXT" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -103,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/pages/Hint/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="435">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -281,17 +267,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553876676654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="migrate from fetch hoc to query">
+      <created>1553904260939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553904260939</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23869000" />
+    <option name="totallyTimeSpent" value="24372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19880864" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19880864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,7 +315,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="migrate to functional style" />
     <MESSAGE value="minrs" />
-    <option name="LAST_COMMIT_MESSAGE" value="minrs" />
+    <MESSAGE value="migrate from fetch hoc to query" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrate from fetch hoc to query" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/react-final-form/typescript/index.d.ts">
@@ -376,9 +370,6 @@
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
@@ -464,10 +455,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/pages/Hint/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="435">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
