@@ -10,7 +10,7 @@ const bem = BEM('hint-page');
 
 const HOST = process.env.NODE_ENV === 'production' ? process.env.API_HOST : '';
 
-const HintPage = React.memo(({ location }) => (
+const HintPage = ({ location }) => (
   <Query
     action={() => window
       .fetch(`${HOST}/api/v1/car-info/${location.query.search}`)
@@ -45,7 +45,7 @@ const HintPage = React.memo(({ location }) => (
       </table>
     )}
   </Query>
-));
+);
 
 HintPage.propTypes = {
   location: PropTypes.object,

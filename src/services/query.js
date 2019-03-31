@@ -14,7 +14,6 @@ const Query = (props) => {
   const { action, filter, loader, watch, onSuccess, onError, children } = props;
 
   const currentFetch = React.useRef();
-
   const [state, setState] = React.useState({ loading: filter(), injected: {} });
 
   const fetch = (fetchId) => {
