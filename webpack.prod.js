@@ -20,6 +20,7 @@ module.exports = {
     publicPath: dotenv.PUBLIC_PATH,
     filename: 'static/js/[name].[chunkhash:8].js',
     chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
+    globalObject: 'this',
   },
 
   mode: 'production',
@@ -70,6 +71,18 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.worker.js$/,
+        use: { loader: 'worker-loader' },
+        options: { name: '[name].[content-hash].js' }
+      },
+      {
+        test: /\.sw.js$/,
+        use: {
+          loader: 'service-worker-loader',
+          options: { filename: '[name].[content-hash].js' },
+        }
+      }
     ],
   },
 

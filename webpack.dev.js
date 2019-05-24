@@ -16,6 +16,7 @@ module.exports = {
     publicPath: dotenv.PUBLIC_PATH,
     filename: 'static/bundle.js',
     chunkFilename: 'static/js/[name].chunk.js',
+    globalObject: 'this',
   },
 
   optimization: {
@@ -77,6 +78,20 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.worker.js$/,
+        use: {
+          loader: 'worker-loader',
+          options: { name: '[name].js' }
+        }
+      },
+      {
+        test: /\.sw.js$/,
+        use: {
+          loader: 'service-worker-loader',
+          options: { filename: '[name].js' },
+        }
+      }
     ],
   },
   plugins: [
